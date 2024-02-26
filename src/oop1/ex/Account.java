@@ -5,13 +5,13 @@ public class Account {
 
 
     void deposit(int amount) {
-        balance = balance + amount;
+        balance += amount;
     }
 
     void withdraw(int amount) {
 
         if (balance >= amount) {
-            balance = balance - amount;
+            balance -= amount;
         } else {
             System.out.println("잔액 부족");
         }
