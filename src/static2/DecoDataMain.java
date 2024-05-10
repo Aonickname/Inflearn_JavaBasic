@@ -1,4 +1,5 @@
 package static2;
+
 //import static static2.DecoData.staticCall;
 //import static static2.DecoData.*;
 
@@ -17,10 +18,10 @@ public class DecoDataMain {
 
         //추가
         //인스턴스를 통한 접근
-        DecoData data3 = new DecoData();
-        data3.staticCall();
+        //DecoData data3 = new DecoData();
+        //data3.staticCall();
 
         //클래스를 통한 접근
-        DecoData.staticCall();
+        //DecoData.staticCall();
     }
 }
